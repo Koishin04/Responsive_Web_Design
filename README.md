@@ -9,11 +9,11 @@ Practice media queries and Bootstrap by making a responsive portfolio.
 
 ## Files
 
-- `index.html`: portfolio.
-- `media.html`: about me, without Bootstrap.
-- `bootstrap.html`: skills, using Bootstrap.
-- `style.css`: styles for all three pages.
-- `screenshots/`: screenshots of the pages.
+-index.html: portfolio.
+-media.html: about me, without Bootstrap.
+-bootstrap.html: skills, using Bootstrap.
+-style.css: styles for all three pages.
+- screenshots/: screenshots of the pages.
 
 Open `index.html` in a browser.
 An internet connection is needed to load Bootstrap from the CDN.
