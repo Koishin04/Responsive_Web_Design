@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Bakhtiyar Koishin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand brand" href="index.html"><span class="brand-mark">BK</span> Bakhtiyar K.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainMenu" aria-controls="mainMenu"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="media.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="bootstrap.html" aria-current="page">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link contact-link" href="index.html#contact">Contact <span aria-hidden="true">↗</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <section class="page-intro" aria-labelledby="skills-title">
+            <p class="eyebrow">Languages & tools</p>
+            <h1 id="skills-title">My everyday <span>toolkit.</span></h1>
+            <p class="page-lead">The languages and tools I use while learning and building projects.</p>
+            <div class="tag-list"><span>Python</span><span>Go</span><span>Git / GitHub</span></div>
+        </section>
+
+        <section class="skills-section" aria-labelledby="toolkit-title">
+            <div class="section-heading">
+                <h2 id="toolkit-title">What I work with</h2>
+                <span class="small-label">Always learning</span>
+            </div>
+            <!-- Three equal columns on desktop, two on tablet, one on mobile -->
+            <div class="row g-4 skills-grid">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card skill-card h-100">
+                        <div class="card-body">
+                            <div class="skill-symbol python-symbol" aria-hidden="true">Py</div>
+                            <p class="category-label">Programming language</p>
+                            <h3>Python</h3>
+                            <p>One of my main programming languages for learning and working on code.</p>
+                            <div class="skill-bottom">Programming & practice</div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card skill-card h-100">
+                        <div class="card-body">
+                            <div class="skill-symbol go-symbol" aria-hidden="true">Go</div>
+                            <p class="category-label">Programming language</p>
+                            <h3>Go</h3>
+                            <p>A language I use and continue to study as I develop my programming skills.</p>
+                            <div class="skill-bottom">Learning & building</div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card skill-card h-100">
+                        <div class="card-body">
+                            <div class="skill-symbol git-symbol" aria-hidden="true">Git</div>
+                            <p class="category-label">Development tools</p>
+                            <h3>Git / GitHub</h3>
+                            <p>The tools I use to track changes and keep my project code organized.</p>
+                            <div class="skill-bottom">Version control & repositories</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom-note" aria-labelledby="code-title">
+            <div><h2 id="code-title">From learning to building.</h2><p>See my projects or explore my GitHub profile.</p></div>
+            <div class="button-row">
+                <a class="button secondary-button" href="index.html#projects">My projects</a>
+                <a class="button primary-button" href="https://github.com/Koishin04">GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <span>Bakhtiyar Koishin <span class="footer-divider">/</span> SE-2540</span>
+            <a href="https://github.com/Koishin04">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
